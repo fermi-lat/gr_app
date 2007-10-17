@@ -1,0 +1,20 @@
+------------------------------------------------------------
+User: golpa  Wed Oct 17 16:20:03 PDT 2007
+gr_app
+
+Log Message:
+
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	start
+		
+N gr_app/src/GlastMain.cxx
+N gr_app/src/TestGlastMain.cxx
+N gr_app/src/setPriority.cxx
+N gr_app/cmt/requirements
+
+No conflicts created by this import
+
+    *
