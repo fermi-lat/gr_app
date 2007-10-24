@@ -1,0 +1,14 @@
+/** @file release.notes
+ * @brief package gr_app 
+
+ * package manager:N. Golpayegani
+
+@verbatim
+
+$Id: release.notes,v 1.66 2007/06/05 15:41:55 golpa Exp $
+ 
+ 
+    v0   24-Oct-2007  NG  Initial Import
+!======================================================================
+@endverbatim
+*/
