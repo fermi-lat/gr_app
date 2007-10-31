@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Wed Oct 31 10:05:04 PDT 2007
+gr_app/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Changes so environment variables are set up at runtime
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0, operation: add
 Package: gr_app
