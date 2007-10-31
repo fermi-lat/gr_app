@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: golpa  Wed Oct 31 10:05:04 PDT 2007
+gr_app/src
+
+Modified Files:
+	GlastMain.cxx TestGlastMain.cxx 
+Log Message:
+Changes so environment variables are set up at runtime
+    *
+------------------------------------------------------------
+User: golpa  Wed Oct 31 10:05:04 PDT 2007
 gr_app/cmt
 
 Modified Files:
