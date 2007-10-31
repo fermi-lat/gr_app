@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastPolicy/src/GlastMain.cxx,v 1.8 2007/04/16 21:41:09 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/gr_app/src/GlastMain.cxx,v 1.1.1.1 2007/10/17 23:20:03 golpa Exp $
 
 // Include files
 #include "GaudiKernel/SmartIF.h"
@@ -15,6 +15,8 @@
 #endif
 #include <time.h>
 #include <stdio.h>
+
+#include "facilities/commonUtilities.h"
 
 //------------------------------------------------------------------------------
 //
@@ -52,6 +54,8 @@ void current_time(std::ostream& out=std::cout)
 
 
 int main( int argn, char** argc) {
+
+    facilities::commonUtilities::setupEnvironment();
     
     std::string joboptions_file="src/jobOptions.txt"; // default
     
