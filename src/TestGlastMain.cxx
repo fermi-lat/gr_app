@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/gr_app/src/TestGlastMain.cxx,v 1.1.1.1 2007/10/17 23:20:03 golpa Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/gr_app/src/TestGlastMain.cxx,v 1.2 2007/10/31 17:05:04 golpa Exp $
 
 // Include files
 #include "GaudiKernel/SmartIF.h"
@@ -15,6 +15,8 @@
 # include <unistd.h>
 #endif
 #include <time.h>
+
+#include "facilities/commonUtilities.h"
 
 //------------------------------------------------------------------------------
 //
