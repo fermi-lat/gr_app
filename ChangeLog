@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: golpa  Thu Nov  1 06:49:02 PDT 2007
+gr_app/src
+
+Modified Files:
+	TestGlastMain.cxx 
+Log Message:
+added missed include
+    *
+------------------------------------------------------------
+User: golpa  Thu Nov  1 06:49:02 PDT 2007
 gr_app/cmt
 
 Modified Files:
