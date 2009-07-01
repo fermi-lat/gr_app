@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jul  1 09:52:53 PDT 2009
+gr_app/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+add EOH to release.notes
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-15-50-10, operation: del
 Package: gr_app
