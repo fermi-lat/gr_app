@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Nov  6 12:29:23 PST 2009
+GlastRelease-scons/gr_app
+
+Added Files:
+	SConscript 
+Log Message:
+Add minimal SConscript.  gr_app doesn't actually build anything
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 09:52:53 PDT 2009
 gr_app/doc
 
