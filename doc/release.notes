@@ -5,9 +5,10 @@
 
 @verbatim
 
-$Id: release.notes,v 1.1 2007/10/24 19:12:03 heather Exp $
+$Id: release.notes,v 1.2 2009/07/01 16:52:53 heather Exp $
 * EOH * 
  
+ gr_app-00-02-01 09-Nov-2009    jrb Updates for SCons
     v0   24-Oct-2007  NG  Initial Import
 !======================================================================
 @endverbatim
