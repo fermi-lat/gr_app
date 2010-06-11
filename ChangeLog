@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:03:42 PDT 2010
+GlastRelease-scons/gr_app/src
+
+Modified Files:
+	TestGlastMain.cxx 
+Log Message:
+Add #ifdef SCons .. #endif code to get this to work correctly for SCons builds
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: gr_app-00-02-01, operation: add
 Package: gr_app
