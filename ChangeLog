@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 11 12:26:42 PDT 2010
+GlastRelease-scons/gr_app
+
+Added Files:
+	.cvsignore 
+Log Message:
+translate env. variables in jo argument
+    *
+------------------------------------------------------------
 User: jrb  Thu Jun 10 17:03:42 PDT 2010
 GlastRelease-scons/gr_app/src
 
