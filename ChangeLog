@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 11 18:44:08 PDT 2010
+GlastRelease-scons/gr_app/src
+
+Modified Files:
+	GlastMain.cxx 
+Log Message:
+support env variable translation for jo path argument
+    *
+------------------------------------------------------------
 User: jrb  Fri Jun 11 12:26:44 PDT 2010
 GlastRelease-scons/gr_app/src
 
