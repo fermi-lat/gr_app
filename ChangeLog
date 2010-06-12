@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 11 18:47:51 PDT 2010
+gr_app
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: jrb  Fri Jun 11 18:44:08 PDT 2010
 GlastRelease-scons/gr_app/src
 
