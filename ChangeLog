@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+TAG
+Tag name: gr_app-00-02-01-gr01, operation: add
+Package: gr_app
+User: heather  Mon Sep 20 09:45:42 2010
+Files:
+  gr_app/ChangeLog  1.19
+  gr_app/SConscript  1.2.18.1
+  gr_app/cmt/requirements  1.4.18.1
+  gr_app/doc/release.notes  1.3
+  gr_app/src/setPriority.cxx  1.1.1.1
+  gr_app/src/mainpage.h  1.1
+  gr_app/src/TestGlastMain.cxx  1.3.358.1
+  gr_app/src/GlastMain.cxx  1.2.358.1
+
+    *
+------------------------------------------------------------
 User: heather  Mon Sep 20 09:45:19 PDT 2010
 gr_app/src
 
