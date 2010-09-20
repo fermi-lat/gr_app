@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/gr_app/src/TestGlastMain.cxx,v 1.2 2007/10/31 17:05:04 golpa Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/gr_app/src/TestGlastMain.cxx,v 1.3 2007/11/01 13:49:02 golpa Exp $
 
 // Include files
 #include "GaudiKernel/SmartIF.h"
@@ -75,9 +75,11 @@ int main( int argn, char** argc) {
     
     // Create an instance of an application manager
     IInterface* iface = Gaudi::createApplicationMgr();
-    
-    SmartIF<IProperty>     propMgr ( IID_IProperty, iface );
-    SmartIF<IAppMgrUI>     appMgr  ( IID_IAppMgrUI, iface );
+    SmartIF<IProperty>     propMgr ( iface );
+    SmartIF<IAppMgrUI>     appMgr  ( iface );
+
+    //SmartIF<IProperty>     propMgr ( IID_IProperty, iface );
+    //SmartIF<IAppMgrUI>     appMgr  ( IID_IAppMgrUI, iface );
 
     if( !appMgr.isValid() || !propMgr.isValid() ) {
       std::cout << "Fatal error while creating the ApplicationMgr " << std::endl;
@@ -96,6 +98,7 @@ int main( int argn, char** argc) {
     if( status.isFailure() ){
         std::cerr << "Application failed, returning error code 1" << std::endl;
     }
+    iface->release();
     current_time(std::cerr);
 
     return (status.isFailure()? 1 : 0);

@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/gr_app/src/GlastMain.cxx,v 1.1.1.1 2007/10/17 23:20:03 golpa Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/gr_app/src/GlastMain.cxx,v 1.2 2007/10/31 17:05:04 golpa Exp $
 
 // Include files
 #include "GaudiKernel/SmartIF.h"
@@ -75,14 +75,22 @@ int main( int argn, char** argc) {
     
     // Create an instance of an application manager
     IInterface* iface = Gaudi::createApplicationMgr();
-    
-    SmartIF<IProperty>     propMgr ( IID_IProperty, iface );
-    SmartIF<IAppMgrUI>     appMgr  ( IID_IAppMgrUI, iface );
 
-    if( !appMgr.isValid() || !propMgr.isValid() ) {
-        std::cout << "Fatal error while creating the ApplicationMgr " << std::endl;
-        return 1;
-    }
+  SmartIF<IProperty>     propMgr ( iface );
+  SmartIF<IAppMgrUI>     appMgr  ( iface );
+
+  if( !appMgr.isValid() || !propMgr.isValid() ) {
+    std::cout << "Fatal error while creating the ApplicationMgr " << std::endl;
+    return 1;
+  }
+    
+  //  SmartIF<IProperty>     propMgr ( IID_IProperty, iface );
+   // SmartIF<IAppMgrUI>     appMgr  ( IID_IAppMgrUI, iface );
+
+   // if( !appMgr.isValid() || !propMgr.isValid() ) {
+   //     std::cout << "Fatal error while creating the ApplicationMgr " << std::endl;
+   //     return 1;
+   // }
 
   
     // Set properties of algorithms and services
@@ -95,6 +103,7 @@ int main( int argn, char** argc) {
     StatusCode status = appMgr->run();
 
     // All done - exit with 0 if success.
+    iface->release();
     current_time(std::cerr);
     return (status.isFailure()? 1 : 0);
     
