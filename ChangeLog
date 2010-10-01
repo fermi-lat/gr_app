@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Oct  1 14:53:15 PDT 2010
+gr_app/src
+
+Modified Files:
+	GlastMain.cxx 
+Log Message:
+changes similar to those for TestGlastMain
+    *
+------------------------------------------------------------
 User: jrb  Fri Oct  1 12:08:33 PDT 2010
 GlastRelease-scons/gr_app/src
 
