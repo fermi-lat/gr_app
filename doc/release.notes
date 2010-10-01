@@ -5,9 +5,10 @@
 
 @verbatim
 
-$Id: release.notes,v 1.3 2009/11/10 01:24:24 jrb Exp $
+$Id: release.notes,v 1.4 2010/06/12 01:47:51 jrb Exp $
 * EOH * 
  
+ gr_app-00-02-03 01-Oct-2010    jrb more robust argument handling for GlastMain, TestGlastMain
  gr_app-00-02-02 11-Jun-2010    jrb correct jo handling for SCons
  gr_app-00-02-01 09-Nov-2009    jrb Updates for SCons
     v0   24-Oct-2007  NG  Initial Import
