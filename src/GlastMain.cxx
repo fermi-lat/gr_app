@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/gr_app/src/GlastMain.cxx,v 1.2 2007/10/31 17:05:04 golpa Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/gr_app/src/GlastMain.cxx,v 1.3 2010/06/12 01:44:08 jrb Exp $
 
 // Include files
 #include "GaudiKernel/SmartIF.h"
@@ -72,12 +72,20 @@ int main( int argn, char** argc) {
   return 1;
 #endif
 #endif
-    
-  const char* job = ::getenv("JOBOPTIONS"); // check for env var
-    
-  if( argn>1 ) { joboptions_file = argc[1];} // priority to command arg.
-  else if( job ) { joboptions_file = job; }
+   
+  // check for env var
+  std::string jobstring = facilities::commonUtilities::getEnvironment("JOBOPTIONS");
 
+  // Priority goes to command arg, but it must be non-empty
+  // (If called from wrapper script may see empty first argument)
+  if( argn>1 ) {
+    std::string arg1(argc[1]);
+    if (arg1.size() > 0) {
+      joboptions_file = argc[1]; // priority to command arg.
+    }
+  }
+  else if(jobstring.size() > 0 ) { joboptions_file = jobstring; }
+ 
   // translate env variables if any
   try {
     facilities::Util::expandEnvVar(&joboptions_file);
