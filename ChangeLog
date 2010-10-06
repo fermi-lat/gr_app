@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Tue Oct  5 20:57:56 PDT 2010
+gr_app/cmt
+
+Modified Files:
+      Tag: GlastReleasev18r7p1
+	requirements 
+Log Message:
+update version
+    *
+------------------------------------------------------------
 TAG
 Tag name: gr_app-00-02-02-gr01, operation: add
 Package: gr_app
