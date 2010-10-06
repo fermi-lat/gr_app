@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Tue Oct  5 20:56:19 PDT 2010
+gr_app
+
+Modified Files:
+      Tag: GlastReleasev18r7p1
+	SConscript 
+Log Message:
+Gaudi v21r7
+    *
+------------------------------------------------------------
 TAG
 Tag name: gr_app-00-02-03, operation: add
 Package: gr_app
