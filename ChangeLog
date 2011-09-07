@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr04, operation: add
+Package: gr_app
+User: heather  Wed Sep  7 14:09:22 2011
+Files:
+  gr_app/.cvsignore  1.1
+  gr_app/ChangeLog  1.37
+  gr_app/SConscript  1.4
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-03-07, operation: add
 Package: gr_app
 User: heather  Wed Sep  7 10:19:05 2011
