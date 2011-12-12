@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/gr_app/src/GlastMain.cxx,v 1.3 2010/06/12 01:44:08 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/gr_app/src/GlastMain.cxx,v 1.4 2010/10/01 21:53:15 jrb Exp $
 
 // Include files
 #include "GaudiKernel/SmartIF.h"
@@ -72,7 +72,7 @@ int main( int argn, char** argc) {
   return 1;
 #endif
 #endif
-   
+    
   // check for env var
   std::string jobstring = facilities::commonUtilities::getEnvironment("JOBOPTIONS");
 
@@ -86,6 +86,7 @@ int main( int argn, char** argc) {
   }
   else if(jobstring.size() > 0 ) { joboptions_file = jobstring; }
  
+
   // translate env variables if any
   try {
     facilities::Util::expandEnvVar(&joboptions_file);
@@ -109,8 +110,8 @@ int main( int argn, char** argc) {
   // Create an instance of an application manager
   IInterface* iface = Gaudi::createApplicationMgr();
   
-  SmartIF<IProperty>     propMgr ( IID_IProperty, iface );
-  SmartIF<IAppMgrUI>     appMgr  ( IID_IAppMgrUI, iface );
+  SmartIF<IProperty>     propMgr ( iface );
+  SmartIF<IAppMgrUI>     appMgr  ( iface );
   
   if( !appMgr.isValid() || !propMgr.isValid() ) {
     std::cout << "Fatal error while creating the ApplicationMgr " << std::endl;
@@ -127,8 +128,9 @@ int main( int argn, char** argc) {
 #endif
   StatusCode status = appMgr->run();
 
-  // All done - exit with 0 if success.
-  current_time(std::cerr);
-  return (status.isFailure()? 1 : 0);
+    // All done - exit with 0 if success.
+    iface->release();
+    current_time(std::cerr);
+    return (status.isFailure()? 1 : 0);
     
 }
