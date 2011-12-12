@@ -1,4 +1,21 @@
 ------------------------------------------------------------
+TAG
+Tag name: gr_app-01-00-00, operation: add
+Package: gr_app
+User: heather  Mon Dec 12 13:17:35 2011
+Files:
+  gr_app/.cvsignore  1.1
+  gr_app/ChangeLog  1.77
+  gr_app/SConscript  1.5
+  gr_app/cmt/requirements  1.7
+  gr_app/doc/release.notes  1.6
+  gr_app/src/setPriority.cxx  1.1.1.1
+  gr_app/src/mainpage.h  1.1
+  gr_app/src/TestGlastMain.cxx  1.7
+  gr_app/src/GlastMain.cxx  1.5
+
+    *
+------------------------------------------------------------
 User: heather  Mon Dec 12 12:16:50 PST 2011
 GlastRelease-scons/gr_app/src
 
