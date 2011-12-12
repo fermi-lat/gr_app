@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Dec 12 12:16:50 PST 2011
+GlastRelease-scons/gr_app/src
+
+Modified Files:
+	GlastMain.cxx TestGlastMain.cxx 
+Log Message:
+new Gaudi v21r7
+    *
+------------------------------------------------------------
+User: heather  Mon Dec 12 12:16:50 PST 2011
 GlastRelease-scons/gr_app/doc
 
 Modified Files:
