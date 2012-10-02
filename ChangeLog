@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Tue Oct  2 13:36:23 PDT 2012
+GlastRelease-scons/gr_app/src
+
+Modified Files:
+	GlastMain.cxx 
+Log Message:
+Change Gleam default jo to the file it should have been all along (different from test_Gleam default)
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-05-01, operation: add
 Package: gr_app
