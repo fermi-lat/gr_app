@@ -1,4 +1,21 @@
 ------------------------------------------------------------
+TAG
+Tag name: gr_app-01-00-01, operation: add
+Package: gr_app
+User: jrb  Tue Oct  2 13:37:12 2012
+Files:
+  gr_app/.cvsignore  1.1
+  gr_app/ChangeLog  1.166
+  gr_app/SConscript  1.6
+  gr_app/cmt/requirements  1.8
+  gr_app/doc/release.notes  1.7
+  gr_app/src/setPriority.cxx  1.1.1.1
+  gr_app/src/mainpage.h  1.1
+  gr_app/src/TestGlastMain.cxx  1.7
+  gr_app/src/GlastMain.cxx  1.6
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Oct  2 13:37:06 PDT 2012
 gr_app/cmt
 
