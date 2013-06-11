@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: tstephen  Tue Jun 11 09:20:11 PDT 2013
+GlastRelease-scons/gr_app/src
+
+Modified Files:
+	TestGlastMain.cxx GlastMain.cxx 
+Log Message:
+Added code to override default assert dialog creation behavior and write assertion errors to standard output.
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-08-16, operation: add
 Package: gr_app
