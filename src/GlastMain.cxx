@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/gr_app/src/GlastMain.cxx,v 1.5 2011/12/12 20:16:50 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/gr_app/src/GlastMain.cxx,v 1.6 2012/10/02 20:36:22 jrb Exp $
 
 // Include files
 #include "GaudiKernel/SmartIF.h"
@@ -18,6 +18,9 @@
 
 #include "facilities/commonUtilities.h"
 #include "facilities/Util.h"
+#ifdef WIN32
+#include "facilities/AssertDialogOverride.h"
+#endif
 
 //------------------------------------------------------------------------------
 //
@@ -55,6 +58,12 @@ void current_time(std::ostream& out=std::cout)
 
 
 int main( int argn, char** argc) {
+#ifdef _DEBUG
+   _CrtSetReportHook( AssertDialogOverride );
+   _CrtSetReportMode(_CRT_WARN, _CRTDBG_MODE_FILE);
+   _CrtSetReportMode(_CRT_ERROR, _CRTDBG_MODE_FILE);
+   _CrtSetReportMode(_CRT_ASSERT, _CRTDBG_MODE_FILE);
+#endif
 
   facilities::commonUtilities::setupEnvironment();
     
