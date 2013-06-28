@@ -1,5 +1,22 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-08-18, operation: add
+Package: gr_app
+User: heather  Fri Jun 28 10:08:55 2013
+Files:
+  gr_app/.cvsignore  1.1
+  gr_app/ChangeLog  1.207
+  gr_app/SConscript  1.7
+  gr_app/cmt/requirements  1.9
+  gr_app/doc/release.notes  1.8
+  gr_app/src/setPriority.cxx  1.1.1.1
+  gr_app/src/mainpage.h  1.1
+  gr_app/src/TestGlastMain.cxx  1.8
+  gr_app/src/GlastMain.cxx  1.7
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-08-17, operation: add
 Package: gr_app
 User: heather  Thu Jun 13 20:16:33 2013
