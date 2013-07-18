@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-17-35-24-lp48, operation: add
 Package: gr_app
+User: heather  Thu Jul 18 10:19:10 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp48, operation: add
+Package: gr_app
 User: heather  Thu Jul 18 09:53:55 2013
 Files:
   gr_app/.cvsignore  1.1
