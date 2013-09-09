@@ -1,5 +1,22 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-lp52, operation: add
+Package: gr_app
+User: heather  Mon Sep  9 05:49:36 2013
+Files:
+  gr_app/.cvsignore  1.1
+  gr_app/ChangeLog  1.77
+  gr_app/SConscript  1.5
+  gr_app/cmt/requirements  1.7
+  gr_app/doc/release.notes  1.6
+  gr_app/src/setPriority.cxx  1.1.1.1
+  gr_app/src/mainpage.h  1.1
+  gr_app/src/TestGlastMain.cxx  1.7
+  gr_app/src/GlastMain.cxx  1.5
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-09-04, operation: add
 Package: gr_app
 User: heather  Tue Sep  3 09:17:08 2013
